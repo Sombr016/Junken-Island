@@ -6,3 +6,5 @@ path_end();
 positionsToMove = 0;
 
 diceRef = noone;
+
+isPlayerReady = !isPlayer;

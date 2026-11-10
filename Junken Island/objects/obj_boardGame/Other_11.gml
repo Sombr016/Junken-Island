@@ -8,7 +8,7 @@ for(var i = 0; i < array_length(global.playerTilePositions); i++) {
 		global.turnReady = false;
 		gameWon = true;
 		playerWon = i+1;
-		show_debug_message(string(playerWon)+" has won the game!");
+		show_debug_message("obj_boardGame: UE[1] Line 11: "+string(playerWon)+" has won the game!");
 	}
 }
 //Checks to see if two players share the same square. If so, stop the game and print a debug message.
@@ -19,7 +19,7 @@ if(doOverlapCheck) {
 				if(global.playerTilePositions[i] == global.playerTilePositions[k] && (i != k)) {
 					stopTurns = true;
 					global.playerTurn = -1;
-					show_debug_message("obj_boardGame: UE[0] Line 7: Stopped turns from progressing.");
+					show_debug_message("obj_boardGame: UE[1] Line 22: Stopped turns from progressing.");
 				}
 			}
 		}

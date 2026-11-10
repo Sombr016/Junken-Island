@@ -9,4 +9,4 @@ if(global.playerTurn >= players && !stopTurns) {
 	else if (!stopTurns) {
 		alarm[0] = 30;
 }
-show_debug_message("Player "+string(global.playerTurn)+" is now up!");
+show_debug_message("obj_boardGame: UE[0] Line 12:  Player "+string(global.playerTurn)+" is now up!");
