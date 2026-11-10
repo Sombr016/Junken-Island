@@ -1,0 +1,1 @@
+//@description  prevents GameMaker from drawing the button's sprite relative to the room coordinates

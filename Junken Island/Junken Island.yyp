@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,11 +35,19 @@
   },
   "name":"Junken Island",
   "resources":[
+    {"id":{"name":"obj_paperBtn","path":"objects/obj_paperBtn/obj_paperBtn.yy",},},
+    {"id":{"name":"obj_rockBtn","path":"objects/obj_rockBtn/obj_rockBtn.yy",},},
+    {"id":{"name":"obj_scissorsBtn","path":"objects/obj_scissorsBtn/obj_scissorsBtn.yy",},},
+    {"id":{"name":"Battle_Room","path":"rooms/Battle_Room/Battle_Room.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_paper","path":"sprites/spr_paper/spr_paper.yy",},},
+    {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},},
+    {"id":{"name":"spr_scissors","path":"sprites/spr_scissors/spr_scissors.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Battle_Room","path":"rooms/Battle_Room/Battle_Room.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
