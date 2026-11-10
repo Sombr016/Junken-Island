@@ -14,8 +14,8 @@ image_speed = 0;
 event_user(0);
 
 
-//How fast/slow the spin speed degrades.
-spriteFrameSpeed = 30;
+//How fast/slow the spin speed degrades. Higher the value -> Slower the slowdown.
+spriteFrameSpeed = irandom_range(30,50);
 
 //The threshold needed before slowing down stops.
 slowDownThreshold = 0.2;

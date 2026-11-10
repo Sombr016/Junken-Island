@@ -21,3 +21,5 @@ global.turnReady = true; //Checks to see if the dice is ready to be rolled.
 /* The idea for this flag is for the camera object to pan over to the next player,
    and after the camera is situated the turn can begin.
 */
+
+doOverlapCheck = true; //A flag to check for player tile overlaps. If false, then the RPS gamemode will never trigger.
