@@ -1,4 +1,4 @@
-//@description DICE ROLL
+/// @description DICE ROLL
 //Checks if it is this player's turn. If so, then roll the dice.
 if(global.playerTurn == playerNumber && global.turnReady && isPlayerReady) {
 	//If there isn't a dice, create one, and start the roll.

@@ -37,6 +37,7 @@
   "name":"Junken Island",
   "resources":[
     {"id":{"name":"obj_boardGame","path":"objects/obj_boardGame/obj_boardGame.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_dice","path":"objects/obj_dice/obj_dice.yy",},},
     {"id":{"name":"obj_playerBase","path":"objects/obj_playerBase/obj_playerBase.yy",},},
     {"id":{"name":"BoardPath","path":"paths/BoardPath/BoardPath.yy",},},
@@ -46,6 +47,7 @@
     {"id":{"name":"PH_p1","path":"sprites/PH_p1/PH_p1.yy",},},
     {"id":{"name":"PH_players","path":"sprites/PH_players/PH_players.yy",},},
     {"id":{"name":"PH_TileSeet","path":"sprites/PH_TileSeet/PH_TileSeet.yy",},},
+    {"id":{"name":"spr_camera","path":"sprites/spr_camera/spr_camera.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
