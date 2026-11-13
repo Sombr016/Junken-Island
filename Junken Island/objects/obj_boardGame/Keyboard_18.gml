@@ -1,4 +1,5 @@
 ///@description Gameboard Cheat Codes
+
 //Debug. Automatically sets the next turn.
 if(keyboard_check_pressed(ord("O"))) {
 	if(global.playerTurn >= players) {
@@ -22,6 +23,12 @@ if(keyboard_check_pressed(ord("U"))) {
 }
 
 //Debug. Restarts the room. Set to E because Alt+R opens up nVidia stats.
+//Currently doesn't ACTUALLY restart the room, since a lot of global variables determine room state.
 if(keyboard_check_pressed(ord("E"))) {
 	room_restart()
+}
+
+//Debug. Restarts the game.
+if(keyboard_check_pressed(ord("W"))) {
+	game_restart()
 }

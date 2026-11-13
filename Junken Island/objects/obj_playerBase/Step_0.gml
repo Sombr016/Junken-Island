@@ -9,7 +9,17 @@ if(positionsToMove > 0) {
 	y = path_get_y(pathReference,desiredPosition);
 	positionsToMove = 0;
 	global.playerTilePositions[playerNumber-1] = playerBoardPosition;
-	if(isPlayer) {
-		isPlayerReady = false;
-	}
 }
+
+//A flag to always make the human-controlled player not ready when it isn't their turn
+if(global.playerTurn != playerNumber && isPlayer) {
+	isPlayerReady = false;
+}
+
+//If the setGlobalIsPlayer flag is active, then see UE[0].
+if(setGlobalIsPlayer) {
+	event_user(0);
+}
+
+
+
