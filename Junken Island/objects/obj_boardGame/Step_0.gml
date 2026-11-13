@@ -6,7 +6,7 @@
 if(global.movePlayersBack) {
 	for (var i = 0; i < instance_number(obj_playerBase); ++i){
 		playerRef = instance_find(obj_playerBase,i);
-		playerRef.positionsToMove = global.playerTilePositions[playerRef.playerNumber-1];
+		playerRef.positionsToMove = global.playerTilePositions[playerRef.playerNumber-1]-playerRef.playerBoardPosition;
 	}
 	global.movePlayersBack = false;
 }

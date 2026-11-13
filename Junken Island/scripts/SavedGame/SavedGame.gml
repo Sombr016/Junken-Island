@@ -2,7 +2,10 @@ function Saving_game() {
 		//Constructor to grab all the data needed to be saved
 		var savedData = {
 			playerPosition: global.playerTilePositions,
-			currentRoom: room_get_name(room)	
+			currentRoom: room_get_name(room),
+			currentPlayerTurn: global.playerTurn,
+			maxPlayersHealth: global.maxPlayerHealth,
+			playerWeights: global.playerWeights
 		}
 		
 		//Create a saved file type ofjson
@@ -41,8 +44,17 @@ function Load_game() {
 		
 		//Load the data back to the game and convert back to the JSON type
 		var dataLoad = json_parse(jsonString)
+		//show_debug_message("Saved player positions: "+string(dataLoad.playerPosition));
 		
-		global.playerTilePositions = dataLoad.playerPosition
+		for(var i = 0; i < array_length(global.playerTilePositions); i++) {
+			global.playerTilePositions[i] = dataLoad.playerPosition[i];
+		}
+		
+		//global.playerTilePositions = dataLoad.playerPosition
+		global.playerTurn = dataLoad.currentPlayerTurn;
+		global.playerWeights = dataLoad.playerWeights;
+		global.maxPlayerHealth = dataLoad.maxPlayersHealth;
+		global.movePlayersBack = true;
 		
 		show_debug_message("Loaded the Game")
 	}

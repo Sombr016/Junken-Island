@@ -1,5 +1,5 @@
 //Checks if there are positions to move on the board. If so, then move.
-if(positionsToMove > 0) {
+if(positionsToMove != 0) {
 	playerBoardPosition += positionsToMove
 	playerBoardPosition = clamp(playerBoardPosition,0,global.numberOfSquares);
 	//show_debug_message(desiredPosition);
