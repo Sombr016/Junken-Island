@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_board_paper",
+    "path":"sprites/spr_board_paper/spr_board_paper.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

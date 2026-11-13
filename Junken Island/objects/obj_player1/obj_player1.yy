@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_board_main",
+    "path":"sprites/spr_board_main/spr_board_main.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

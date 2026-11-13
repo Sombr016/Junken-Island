@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_board_scissors",
+    "path":"sprites/spr_board_scissors/spr_board_scissors.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_board_rock",
+    "path":"sprites/spr_board_rock/spr_board_rock.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
