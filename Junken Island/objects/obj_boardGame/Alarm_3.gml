@@ -2,5 +2,6 @@
 
 stopTurns = false;
 global.turnReady = true;
+immediatelyStartTurn = true;
 
-//event_user(0); Progresses to the next player's turn, if desired.
+event_user(0); //Progresses to the next player's turn, if desired.

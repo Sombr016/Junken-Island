@@ -7,6 +7,12 @@ RPSDecisions = ["Nothing","Nothing"];
 battlePlayer1 = instance_create_layer(100,room_height/2,"Instances",obj_RPSBase);
 battlePlayer2 = instance_create_layer(room_width-100,room_height/2,"Instances",obj_RPSBase);
 
+var scalePlayers = 4;
+battlePlayer1.image_xscale = scalePlayers;
+battlePlayer1.image_yscale = scalePlayers;
+battlePlayer2.image_xscale = scalePlayers;
+battlePlayer2.image_yscale = scalePlayers;
+
 //Finds player position in the room. Currently used to determine sprite placement.
 playerPosition = [[battlePlayer1.x,battlePlayer1.y],[battlePlayer2.x,battlePlayer2.y]]
 

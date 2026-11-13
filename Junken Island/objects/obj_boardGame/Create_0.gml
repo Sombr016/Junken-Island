@@ -14,7 +14,9 @@ global.maxPlayerHealth = array_create(players,2); //An array representation of p
 
 gatesActive = [true,true,true] //Gates for each part of the board. As of 11/12, non-functional.
 
-global.numberOfSquares = 13; //The amount of squares that are on the board.
+global.numberOfSquares = 15; //The amount of squares that are on the board.
+
+immediatelyStartTurn = false; //A flag to bypass alarm[0] and immediately start the turn.
 
 
 global.playerWeights = array_create(players,[0.34,0.33,0.33]); 
@@ -34,7 +36,7 @@ global.turnReady = true; //Checks to see if the dice is ready to be rolled.
    and after the camera is situated the turn can begin.
 */
 
-doOverlapCheck = true; //A flag to check for player tile overlaps. If false, then the RPS gamemode will never trigger.
+//A flag to check for player tile overlaps. If false, then the RPS gamemode will never trigger.
 
 goingToBRTimer = 90; //The amount of time that alarm[2] needs before going to the BattleRoom.
 

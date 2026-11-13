@@ -18,4 +18,3 @@ event_user(0);
 spriteFrameSpeed = irandom_range(30,50);
 
 //The threshold needed before slowing down stops.
-slowDownThreshold = 0.75;

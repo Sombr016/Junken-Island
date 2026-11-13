@@ -9,6 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_playerBase",
@@ -36,10 +37,17 @@
     {"$GMObjectProperty":"v2","%Name":"playerBoardPosition","filters":[],"listItems":[],"multiselect":false,"name":"playerBoardPosition","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"pathReference","filters":[
         "GMPath",
-      ],"listItems":[],"multiselect":false,"name":"pathReference","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BoardPath","path":"paths/BoardPath/BoardPath.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BoardPath","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"pathReference","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BoardPath2","path":"paths/BoardPath2/BoardPath2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BoardPath2","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"debug","filters":[],"listItems":[],"multiselect":false,"name":"debug","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"player_color","filters":[],"listItems":[],"multiselect":false,"name":"player_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF00EB00","varType":7,},
     {"$GMObjectProperty":"v2","%Name":"isPlayer","filters":[],"listItems":[],"multiselect":false,"name":"isPlayer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"idle_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"idle_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"PH_p1","path":"sprites/PH_p1/PH_p1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"PH_p1","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"moving_sprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"moving_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"PH_p1","path":"sprites/PH_p1/PH_p1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"PH_p1","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"dicePersistenceTimer","filters":[],"listItems":[],"multiselect":false,"name":"dicePersistenceTimer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"70","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
