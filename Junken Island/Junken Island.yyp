@@ -43,6 +43,7 @@
     {"id":{"name":"BoardPath","path":"paths/BoardPath/BoardPath.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"DiceRoll","path":"scripts/DiceRoll/DiceRoll.yy",},},
+    {"id":{"name":"SaveGame","path":"scripts/SaveGame/SaveGame.yy",},},
     {"id":{"name":"Dice","path":"sprites/Dice/Dice.yy",},},
     {"id":{"name":"PH_p1","path":"sprites/PH_p1/PH_p1.yy",},},
     {"id":{"name":"PH_players","path":"sprites/PH_players/PH_players.yy",},},
