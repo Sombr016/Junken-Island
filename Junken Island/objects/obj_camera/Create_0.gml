@@ -1,0 +1,1 @@
+moving = view_visible[1];

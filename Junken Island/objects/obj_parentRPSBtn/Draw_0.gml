@@ -1,0 +1,1 @@
+//@description  prevents GameMaker farom drawing the button's sprite relative to the room coordinates
