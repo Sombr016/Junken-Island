@@ -8,4 +8,6 @@ if(debug) {
 	
 	draw_text(60,250,"Player "+string(global.RPSPlayers[0])+" Position: "+string(global.playerTilePositions[global.RPSPlayers[0]-1]));
 	draw_text(60,280,"Player "+string(global.RPSPlayers[1])+" Position: "+string(global.playerTilePositions[global.RPSPlayers[1]-1]));
+
+	draw_text(60,310,"AI Response Speed "+string(AIResponseLow)+"-"+string(AIResponseHigh));
 }
