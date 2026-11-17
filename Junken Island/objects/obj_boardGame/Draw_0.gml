@@ -1,2 +1,7 @@
-//This is supposed to draw a grey background when the game is won. Oh well.
-if(gameWon) {draw_rectangle(0,0,display_get_gui_width(),display_get_gui_height(),c_gray);}
+//This is supposed to draw a grey background when the game is won.
+if(gameWon) {
+	draw_set_alpha(0.5);
+	draw_set_color(c_grey);
+	draw_rectangle(0,0,room_width,room_height,false);
+	draw_set_alpha(1);
+}

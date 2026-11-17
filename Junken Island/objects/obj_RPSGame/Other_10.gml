@@ -3,9 +3,16 @@
 isInRPS = true;
 RPSDecisions = ["Nothing","Nothing"];
 
+//Different player objects.
+playerRef = [
+	obj_RPSPlayer1,
+	obj_RPSPlayer2,
+	obj_RPSPlayer3,
+	obj_RPSPlayer4
+]
 //Creates both player instances.
-battlePlayer1 = instance_create_layer(100,room_height/2,"Instances",obj_RPSBase);
-battlePlayer2 = instance_create_layer(room_width-100,room_height/2,"Instances",obj_RPSBase);
+battlePlayer1 = instance_create_layer(100,room_height/2,"Instances",playerRef[global.RPSPlayers[0]-1]);
+battlePlayer2 = instance_create_layer(room_width-100,room_height/2,"Instances",playerRef[global.RPSPlayers[1]-1]);
 
 var scalePlayers = 4;
 battlePlayer1.image_xscale = scalePlayers;

@@ -23,3 +23,7 @@ setGlobalIsPlayer = false;
 //A flag to trigger UE[0]. There is definitely a better way to implement this but I don't care.
 
 sprite_index = idle_sprite;
+
+sendGateCheck = false; //A flag to send the gate check. 
+//	Only want to do this check once per instance,
+//	which is why the flag is here.

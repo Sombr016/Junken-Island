@@ -17,11 +17,8 @@ if(playersHealth[0] == 0) {
 	isInRPS = false;
 	waitForPlayerInput = true;
 	show_debug_message("Player 1 loses!");
-	global.playerTilePositions[global.RPSPlayers[0]-1] -= tilePositionsToMoveBack;
-	if(global.playerTilePositions[global.RPSPlayers[0]-1] < 0) {
-		global.playerTilePositions[global.RPSPlayers[0]-1] = 0;
-	}
-	alarm[4] = 50;
+	scr_movePlayerBack(global.RPSPlayers[0],tilePositionsToMoveBack);
+	alarm[4] = 50*(1/global.speedMult);
 }
 //If player2's health reaches zero, then stop the RPS game, move back the player a set amount of tiles, and start the transition alarm (alarm[4])
 //between the two different boards (RPSFightRoom->BoardGame)
@@ -29,11 +26,8 @@ else if(playersHealth[1] == 0) {
 	isInRPS = false;
 	waitForPlayerInput = true;
 	show_debug_message("Player 2 loses!");
-	global.playerTilePositions[global.RPSPlayers[1]-1] -= tilePositionsToMoveBack;
-	if(global.playerTilePositions[global.RPSPlayers[1]-1] < 0) {
-		global.playerTilePositions[global.RPSPlayers[1]-1] = 0;
-	}
-	alarm[4] = 50;
+	scr_movePlayerBack(global.RPSPlayers[1],tilePositionsToMoveBack);
+	alarm[4] = 50*(1/global.speedMult);
 }
 
 //If the game is still going, then redisplay the player buttons.

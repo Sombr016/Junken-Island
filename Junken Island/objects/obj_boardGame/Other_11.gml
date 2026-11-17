@@ -1,7 +1,8 @@
 ///@description Various Square Checks
 
 
-//Checks if the game is won. If so, determine the winner and stop all turns.
+
+#region //Checks if the game is won. If so, determine the winner and stop all turns.
 for(var i = 0; i < array_length(global.playerTilePositions); i++) {
 	if(global.playerTilePositions[i] >= global.numberOfSquares && !gameWon) {
 		stopTurns = true;
@@ -11,12 +12,15 @@ for(var i = 0; i < array_length(global.playerTilePositions); i++) {
 		show_debug_message("obj_boardGame: UE[1] Line 11: "+string(playerWon)+" has won the game!");
 	}
 }
+#endregion
+#region //Square overlap check.
+
 //Checks to see if two players share the same square. If so, stop the game and print a debug message.
 if(doOverlapCheck) {
 	for (var i = 0; i < array_length(global.playerTilePositions); i++) {
 		for (var k = 0; k < array_length(global.playerTilePositions); k++) {
 			if(global.playerTilePositions[i] != 0) {
-				if(global.playerTilePositions[i] == global.playerTilePositions[k] && (i != k)) { //Overlap check
+				if(global.playerTilePositions[i] == global.playerTilePositions[k] && (i != k) && (alarm[0] > 0)) { //Overlap check
 					//Hey, stop those turns immediately!
 					global.turnReady = false;
 					stopTurns = true;
@@ -26,7 +30,7 @@ if(doOverlapCheck) {
 						show_debug_message("obj_boardGame: UE[1] Line 23: Going to the Battle Room.");
 						global.RPSPlayers = [i+1,k+1];
 						show_debug_message("obj_boardGame: UE[1] Line 26: RPSPlayers are: "+string(global.RPSPlayers[0])+" "+string(global.RPSPlayers[1]));
-						alarm[2] = goingToBRTimer;
+						alarm[2] = goingToBRTimer*(1/global.speedMult);
 						//Goes through each player object and sets a flag to check if they are a human-controlled object.
 						for (var p = 0; p < instance_number(obj_playerBase); ++p)
 							{
@@ -40,5 +44,6 @@ if(doOverlapCheck) {
 		}
 	}
 }
+#endregion
 
 

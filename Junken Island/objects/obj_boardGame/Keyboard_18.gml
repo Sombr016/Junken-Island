@@ -32,3 +32,13 @@ if(keyboard_check_pressed(ord("E"))) {
 if(keyboard_check_pressed(ord("W"))) {
 	game_restart()
 }
+
+if(keyboard_check_pressed(ord("J"))) {
+	global.gatesActive[0] = !global.gatesActive[0];
+}
+if(keyboard_check_pressed(ord("K"))) {
+	global.gatesActive[1] = !global.gatesActive[1];
+}
+if(keyboard_check_pressed(ord("L"))) {
+	global.gatesActive[2] = !global.gatesActive[2];
+}

@@ -5,7 +5,7 @@ if(isInRPS) {
 		with(rockButton1) {
 			if(show_rock) {
 				other.RPSDecisions[0] = "Rock";
-				alarm[0] = 30;
+				alarm[0] = 30*(1/global.speedMult);
 				instance_destroy(other.paperButton1);
 				instance_destroy(other.scissorsButton1);
 			}
@@ -13,7 +13,7 @@ if(isInRPS) {
 		with(paperButton1) {
 			if(show_paper) {
 				other.RPSDecisions[0] = "Paper";
-				alarm[0] = 30;
+				alarm[0] = 30*(1/global.speedMult);
 				instance_destroy(other.scissorsButton1);
 				instance_destroy(other.rockButton1);
 			}
@@ -21,7 +21,7 @@ if(isInRPS) {
 		with(scissorsButton1) {
 			if(show_scissors) {
 				other.RPSDecisions[0] = "Scissors";
-				alarm[0] = 30;
+				alarm[0] = 30*(1/global.speedMult);
 				instance_destroy(other.paperButton1);
 				instance_destroy(other.rockButton1);
 			}
@@ -40,7 +40,7 @@ if(isInRPS) {
 		with(rockButton2) {
 			if(show_rock) {
 				other.RPSDecisions[1] = "Rock";
-				alarm[0] = 30;
+				alarm[0] = 30*(1/global.speedMult);
 				instance_destroy(other.paperButton2);
 				instance_destroy(other.scissorsButton2);
 			}
@@ -48,7 +48,7 @@ if(isInRPS) {
 		with(paperButton2) {
 			if(show_paper) {
 				pther.RPSDecisions[1] = "Paper";
-				alarm[0] = 30;
+				alarm[0] = 30*(1/global.speedMult);
 				instance_destroy(other.scissorsButton2);
 				instance_destroy(other.rockButton2);
 			}
@@ -56,7 +56,7 @@ if(isInRPS) {
 		with(scissorsButton2) {
 			if(show_scissors) {
 				other.RPSDecisions[1] = "Scissors";
-				alarm[0] = 30;
+				alarm[0] = 30*(1/global.speedMult);
 				instance_destroy(other.paperButton2);
 				instance_destroy(other.rockButton2);
 			}
@@ -64,7 +64,7 @@ if(isInRPS) {
 	}
 	else {
 		if(alarm[1] < 0 && RPSDecisions[1] == "Nothing") {
-			alarm[1] = irandom_range(AIResponseLow,AIResponseHigh);
+			alarm[1] = irandom_range(AIResponseLow,AIResponseHigh)*(1/global.speedMult);
 		}
 	}
 	//If both agents have made a decision, and the cleanUpTimer hasn't already started, then set alarms to both
@@ -72,7 +72,7 @@ if(isInRPS) {
 	if(RPSDecisions[0] != "Nothing" and RPSDecisions[1] != "Nothing" and alarm[2] < 0) {
 		show_debug_message("Player 1 has decided: "+string(RPSDecisions[0]));
 		show_debug_message("Player 2 has decided: "+string(RPSDecisions[1]));
-		alarm[3] = revealTimer;
-		alarm[2] = cleanUpTimer;
+		alarm[3] = revealTimer*(1/global.speedMult);
+		alarm[2] = cleanUpTimer*(1/global.speedMult);
 	}
 }
