@@ -66,6 +66,7 @@
     {"id":{"name":"BattleRoom","path":"rooms/BattleRoom/BattleRoom.yy",},},
     {"id":{"name":"BoardRoom","path":"rooms/BoardRoom/BoardRoom.yy",},},
     {"id":{"name":"DiceRoll","path":"scripts/DiceRoll/DiceRoll.yy",},},
+    {"id":{"name":"SavedGame","path":"scripts/SavedGame/SavedGame.yy",},},
     {"id":{"name":"scr_CalculateDecision","path":"scripts/scr_CalculateDecision/scr_CalculateDecision.yy",},},
     {"id":{"name":"scr_movePlayerBack","path":"scripts/scr_movePlayerBack/scr_movePlayerBack.yy",},},
     {"id":{"name":"Dice","path":"sprites/Dice/Dice.yy",},},
