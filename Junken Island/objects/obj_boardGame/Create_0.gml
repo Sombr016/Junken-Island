@@ -72,3 +72,17 @@ global.speedMult = 1.5; //A global speed multipler that speeds up the game.
 
 
 global.isCameraMoving = false; //Is the camera moving? I dunno.
+
+//Loads game if resume button is pressed on main menu
+if(instance_exists(obj_loadgame)){
+	if(obj_loadgame.loadSave){
+		if(alarm[0] < 0 and alarm[2] < 0 and alarm[3] < 0) {
+			Load_game();
+			stopTurns = false;
+			global.turnReady = true;
+			gameWon = false;
+			playerWon = -1;
+		}
+	}
+	instance_destroy(obj_loadgame)
+}
