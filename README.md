@@ -2,18 +2,24 @@
 
 ## Credits
 Jacqueline Kilcrease - Producer 
+
 Noah Gaziano - Coder
+
 Matthew Reader - Designer
+
 Kourtney Gray-Ford - Artist
 
 
 ### Coding
 Noah Gaziano - Main Coder
+
 Matthew Reader - UI Elements and Save Files
+
 Jacqueline Kilcrease - Camera
 
 ### Design
 Matthew Reader - Concept
+
 Kourtney Gray-Ford - Area Design and Board Layout
 
 ### Art
@@ -60,7 +66,17 @@ Alt+U: Restarts the game.
 
 ## Assets
 Art by Kourtney Gray-Ford
+
 Placeholder Player Sprites: https://ninjikin.itch.io/silly-placeholders
+
 Rock sprite: https://www.iconpacks.net/free-icon/rock-stone-black-outline-24602.html 
+
 Scissors sprite: https://www.iconpacks.net/free-icon/scissors-1588.html
+
 Paper sprite: https://www.iconpacks.net/free-icon/file-1453.html 
+
+menu buttons: https://napoassets.itch.io/pause-menu-woodonly-images
+
+### Sounds
+Hover sound : https://bolttracks.itch.io/taktile
+
