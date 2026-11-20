@@ -4,8 +4,9 @@ draw_rectangle(x1, y1, x2, y2, false)
 // Draw the text centered neatly over the button
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
+draw_set_font(ButtonFont);
 draw_set_color(text_Color);
-draw_text(x1+100, y1+10, button);
+draw_text(x1+100, y1+25, button);
 
 // Always reset alignment so you don't break other UI rendering
 draw_set_halign(fa_left);

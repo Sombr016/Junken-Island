@@ -43,6 +43,7 @@
   },
   "name":"Junken Island",
   "resources":[
+    {"id":{"name":"ButtonFont","path":"fonts/ButtonFont/ButtonFont.yy",},},
     {"id":{"name":"obj_boardGame","path":"objects/obj_boardGame/obj_boardGame.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_dice","path":"objects/obj_dice/obj_dice.yy",},},
