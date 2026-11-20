@@ -12,7 +12,7 @@ global.movePlayersBack = true;
 //Access obj_boardGame to set the alarm to restart the boardGame.
 if(instance_exists(obj_boardGame)) {
 	with(obj_boardGame) {
-		alarm[3] = other.startGameAgainTimer;
+		alarm[3] = other.startGameAgainTimer*(1/global.speedMult);
 	}
 }
 room_goto(BoardRoom);

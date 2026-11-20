@@ -2,8 +2,19 @@
 if(gameWon) {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(display_get_gui_width()/2,display_get_gui_height()/2,
-	"Player "+string(playerWon)+" has won the game!");
+	draw_set_color(c_white)
+	draw_text_transformed(display_get_gui_width()/2,display_get_gui_height()/2,
+	"Player "+string(playerWon)+" has won the game!",
+	4,4,0);
+}
+
+if(displayTurnText) {
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_set_color(c_white)
+	draw_text_transformed(display_get_gui_width()/2,display_get_gui_height()*(9/10),
+	"Player "+string(global.playerTurn)+" is now up!",
+	2,2,0);
 }
 
 

@@ -15,6 +15,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":83,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":76,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_boardGame",
@@ -40,6 +42,10 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"doOverlapCheck","filters":[],"listItems":[],"multiselect":false,"name":"doOverlapCheck","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"debug","filters":[],"listItems":[],"multiselect":false,"name":"debug","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"boardPathReference","filters":[
+        "GMPath",
+      ],"listItems":[],"multiselect":false,"name":"boardPathReference","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BoardPath2","path":"paths/BoardPath2/BoardPath2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BoardPath2","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"textDisplayDuration","filters":[],"listItems":[],"multiselect":false,"name":"textDisplayDuration","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"120","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

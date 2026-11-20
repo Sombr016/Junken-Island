@@ -1,6 +1,8 @@
 draw_self();
 if(debug) {
-	draw_text_transformed(x-40,y-20,"Player Board Position: "+string(playerBoardPosition),1,1,0);
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_text_transformed(x-40,y-20,"Player Board Position: "+string(playerBoardPosition)+". Positions to move: "+string(positionsToMove),1,1,0);
 }
 
 //Text for player number. Affected by player_color;

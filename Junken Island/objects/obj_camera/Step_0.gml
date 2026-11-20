@@ -1,6 +1,7 @@
 /// @description camera targeting amd movement
 if(moving){
 		// finding target player to move to
+	moveSpeed = baseMoveSpeed * global.speedMult;
 	with obj_playerBase{
 		if(playerNumber == global.playerTurn){
 			other.target = id
