@@ -7,10 +7,6 @@ y1 = y;
 x2 = x1+btn_Width
 y2 =  y1+btn_Height
 
-
-
-text_Color = make_color_rgb(101, 67, 33)
-
 show_rock = false
 show_paper = false
 show_scissors = false

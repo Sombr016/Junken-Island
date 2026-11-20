@@ -7,6 +7,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"buttonType","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"btn_Color","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFFFFFF",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"text_Color","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFF0000",},
   ],
   "parent":{
     "name":"Buttons",

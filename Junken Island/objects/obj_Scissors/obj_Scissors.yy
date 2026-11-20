@@ -6,7 +6,8 @@
   "name":"obj_Scissors",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"buttonType","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"btn_Color","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FF0000FF",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"btn_Color","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FF0000B2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"text_Color","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFE5E5E5",},
   ],
   "parent":{
     "name":"Buttons",

@@ -4,7 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"obj_Rock",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"text_Color","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FF2375CC",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_parentRPSBtn","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"propertyId":{"name":"btn_Color","path":"objects/obj_parentRPSBtn/obj_parentRPSBtn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FF4C4C4C",},
+  ],
   "parent":{
     "name":"Buttons",
     "path":"folders/Objects/Buttons.yy",

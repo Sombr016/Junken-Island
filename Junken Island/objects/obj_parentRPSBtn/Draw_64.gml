@@ -7,6 +7,7 @@ draw_set_valign(fa_middle);
 draw_set_font(ButtonFont);
 draw_set_color(text_Color);
 draw_text(x1+100, y1+25, button);
+draw_set_font(-1);
 
 // Always reset alignment so you don't break other UI rendering
 draw_set_halign(fa_left);
