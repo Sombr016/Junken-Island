@@ -9,7 +9,7 @@ diceRef = noone;
 
 isPlayerReady = !isPlayer;
 
-turnReady = false;
+turnReady = true;
 /*
   A flag to check if the player's personal turn is ready. Used for when the player object is 
   reinitialized after an RPS battle ends. This flag ensures that no additional dice will be 

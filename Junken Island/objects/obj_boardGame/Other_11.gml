@@ -24,6 +24,7 @@ if(doOverlapCheck) {
 					//Hey, stop those turns immediately!
 					global.turnReady = false;
 					stopTurns = true;
+					displayTurnText = false;
 					//global.playerTurn = -1;
 					if(alarm[2] < 0 && room == BoardRoom) {
 						show_debug_message("obj_boardGame: UE[1] Line 22: Stopped turns from progressing.");

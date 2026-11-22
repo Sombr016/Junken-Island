@@ -11,13 +11,13 @@ playerRef = [
 	obj_RPSPlayer4
 ]
 //Creates both player instances.
-battlePlayer1 = instance_create_layer(100,room_height/2,"Instances",playerRef[global.RPSPlayers[0]-1]);
-battlePlayer2 = instance_create_layer(room_width-100,room_height/2,"Instances",playerRef[global.RPSPlayers[1]-1]);
+battlePlayer1 = instance_create_layer(300,room_height/2,"Instances",playerRef[global.RPSPlayers[0]-1]);
+battlePlayer2 = instance_create_layer(room_width-300,room_height/2,"Instances",playerRef[global.RPSPlayers[1]-1]);
 
 var scalePlayers = 4;
 battlePlayer1.image_xscale = scalePlayers;
 battlePlayer1.image_yscale = scalePlayers;
-battlePlayer2.image_xscale = scalePlayers;
+battlePlayer2.image_xscale = -scalePlayers;
 battlePlayer2.image_yscale = scalePlayers;
 
 //Finds player position in the room. Currently used to determine sprite placement.

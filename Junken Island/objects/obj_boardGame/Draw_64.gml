@@ -8,13 +8,16 @@ if(gameWon) {
 	4,4,0);
 }
 
-if(displayTurnText) {
+if(displayTurnText && global.playerTurn > 0 && alarm[2] < 0 && room == BoardRoom) {
+	var prevFont = draw_get_font();
+	draw_set_font(TurnTextFont);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_set_color(c_white)
 	draw_text_transformed(display_get_gui_width()/2,display_get_gui_height()*(9/10),
 	"Player "+string(global.playerTurn)+" is now up!",
 	2,2,0);
+	draw_set_font(prevFont);
 }
 
 

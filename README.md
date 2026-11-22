@@ -77,6 +77,8 @@ Paper sprite: https://www.iconpacks.net/free-icon/file-1453.html
 
 menu buttons: https://napoassets.itch.io/pause-menu-woodonly-images
 
+Heart Sprites: https://nandita-b.itch.io/minimal-pixel-heart-ui-pack-health-icons
+
 ### Sounds
 Hover sound : https://bolttracks.itch.io/taktile
 

@@ -60,6 +60,9 @@ global.movePlayersBack = true; //Checks to see if each player has to move back t
 global.maxPlayerHealth = array_create(players,2); //An array representation of player health, 
 // which determines how many rounds are needed to lose.
 
+global.playerColors = [c_green,c_gray,c_white,c_red];
+//Player colors. Yes, this is stupid. No, I don't care. -N
+
 global.playerWeights = array_create(players,[0.34,0.33,0.33]);
 
 //Sets the default player weights for each player. 
