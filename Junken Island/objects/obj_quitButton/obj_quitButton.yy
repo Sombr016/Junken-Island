@@ -8,6 +8,7 @@
   "name":"obj_quitButton",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},"propertyId":{"name":"idleSprite","path":"objects/obj_startButton/obj_startButton.yy",},"resource":{"name":"spr_quitButton","path":"sprites/spr_quitButton/spr_quitButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_quitButton",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},"propertyId":{"name":"hoverSprite","path":"objects/obj_startButton/obj_startButton.yy",},"resource":{"name":"spr_quitButtonHover","path":"sprites/spr_quitButtonHover/spr_quitButtonHover.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_quitButtonHover",},
   ],
   "parent":{
     "name":"MainMenu",

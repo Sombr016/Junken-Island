@@ -8,6 +8,7 @@
   "name":"obj_resumeButton",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},"propertyId":{"name":"idleSprite","path":"objects/obj_startButton/obj_startButton.yy",},"resource":{"name":"spr_resumeButton","path":"sprites/spr_resumeButton/spr_resumeButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_resumeButton",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},"propertyId":{"name":"hoverSprite","path":"objects/obj_startButton/obj_startButton.yy",},"resource":{"name":"spr_resumeButtonHover","path":"sprites/spr_resumeButtonHover/spr_resumeButtonHover.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_resumeButtonHover",},
   ],
   "parent":{
     "name":"MainMenu",

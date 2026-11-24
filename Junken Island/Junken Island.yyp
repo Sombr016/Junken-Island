@@ -45,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2026.1.0.27",
   },
   "name":"Junken Island",
   "resources":[
@@ -106,7 +106,9 @@
     {"id":{"name":"spr_islandBackground","path":"sprites/spr_islandBackground/spr_islandBackground.yy",},},
     {"id":{"name":"spr_paper","path":"sprites/spr_paper/spr_paper.yy",},},
     {"id":{"name":"spr_quitButton","path":"sprites/spr_quitButton/spr_quitButton.yy",},},
+    {"id":{"name":"spr_quitButtonHover","path":"sprites/spr_quitButtonHover/spr_quitButtonHover.yy",},},
     {"id":{"name":"spr_resumeButton","path":"sprites/spr_resumeButton/spr_resumeButton.yy",},},
+    {"id":{"name":"spr_resumeButtonHover","path":"sprites/spr_resumeButtonHover/spr_resumeButtonHover.yy",},},
     {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},},
     {"id":{"name":"spr_scissors","path":"sprites/spr_scissors/spr_scissors.yy",},},
     {"id":{"name":"spr_startButton","path":"sprites/spr_startButton/spr_startButton.yy",},},
