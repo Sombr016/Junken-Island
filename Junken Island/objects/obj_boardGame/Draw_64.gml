@@ -34,4 +34,7 @@ if(debug) {
 	"Alarm[0]: "+string(alarm[0])+
 	" Alarm[2]: "+string(alarm[2])+
 	" Alarm[3]: "+string(alarm[3]));
+	draw_set_halign(fa_center);
+	draw_text(display_get_gui_width()/2,display_get_gui_height()/20,
+	"Global Speed Factor: "+string(global.speedMult));
 }

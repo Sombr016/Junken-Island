@@ -5,7 +5,8 @@ function Saving_game() {
 			currentRoom: room_get_name(room),
 			currentPlayerTurn: global.playerTurn,
 			maxPlayersHealth: global.maxPlayerHealth,
-			playerWeights: global.playerWeights
+			playerWeights: global.playerWeights,
+			gameSpeed: global.speedMult
 		}
 		
 		//Create a saved file type ofjson
@@ -54,6 +55,7 @@ function Load_game() {
 		global.playerTurn = dataLoad.currentPlayerTurn;
 		global.playerWeights = dataLoad.playerWeights;
 		global.maxPlayerHealth = dataLoad.maxPlayersHealth;
+		global.speedMult = dataLoad.gameSpeed;
 		global.movePlayersBack = true;
 		
 		show_debug_message("Loaded the Game")

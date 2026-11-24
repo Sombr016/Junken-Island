@@ -5,8 +5,8 @@ function scr_isPlayerAtGate(playerBoardPosition,numOfGates){
 	for(var i = 0; i < numOfGates; i++) {
 		if(playerBoardPosition == global.gatesPosition[i] && global.gatesActive[i]) {
 			//show_debug_message("Player is at a gate.");
-			return true;
+			return (i+1);
 		}
 	}
-	return false;
+	return 0;
 }

@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_gateBase",
@@ -35,7 +36,7 @@
     {"$GMObjectProperty":"v2","%Name":"gateRollSucceed","filters":[],"listItems":[],"multiselect":false,"name":"gateRollSucceed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"gateClosedSprite","filters":[
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"gateClosedSprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"gateClosedSprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_paper","path":"sprites/spr_paper/spr_paper.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_paper","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"gateOpeningSprite","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"gateOpeningSprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
@@ -45,7 +46,7 @@
     {"$GMObjectProperty":"v2","%Name":"boardPathReference","filters":[
         "GMPath",
       ],"listItems":[],"multiselect":false,"name":"boardPathReference","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BoardPath2","path":"paths/BoardPath2/BoardPath2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BoardPath2","varType":5,},
-    {"$GMObjectProperty":"v2","%Name":"debug","filters":[],"listItems":[],"multiselect":false,"name":"debug","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"debug","filters":[],"listItems":[],"multiselect":false,"name":"debug","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"dicePersistenceTimer","filters":[],"listItems":[],"multiselect":false,"name":"dicePersistenceTimer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"timeForGateToOpen","filters":[],"listItems":[],"multiselect":false,"name":"timeForGateToOpen","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":1,},
   ],

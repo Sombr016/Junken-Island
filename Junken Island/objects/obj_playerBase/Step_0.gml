@@ -1,6 +1,6 @@
 //Checks if there are positions to move on the board. If so, then move.
 if(positionsToMove != 0) {
-	if(!scr_isPlayerAtGate(playerBoardPosition,array_length(global.gatesActive))) {
+	if(scr_isPlayerAtGate(playerBoardPosition,array_length(global.gatesActive)) == 0) {
 		playerBoardPosition += sign(positionsToMove)
 		playerBoardPosition = clamp(playerBoardPosition,0,global.numberOfSquares);
 		//show_debug_message(desiredPosition);
@@ -28,6 +28,7 @@ if(positionsToMove != 0) {
 		//  then this system will not work. Will need to revise system when board is closer to completion!
 		if(playerBoardPosition  && global.playerTurn == playerNumber) {
 			obj_gateBase.playerCallingRef = self;
+			obj_gateBase.gateCall = scr_isPlayerAtGate(playerBoardPosition,array_length(global.gatesActive));
 		}
 		
 	}

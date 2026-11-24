@@ -46,5 +46,6 @@ else {
 			}
 		}
 		playerCallingRef = noone;
+		gateCall = 0;
 	}
 }

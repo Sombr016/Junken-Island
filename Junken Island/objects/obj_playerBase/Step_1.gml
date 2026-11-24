@@ -16,12 +16,31 @@ if(global.playerTurn == playerNumber && global.turnReady && isPlayerReady && tur
 			diceRef = instance_create_layer(x,y-40,"Instances",obj_dice);
 		}
 		*/
-		diceRef = instance_create_layer(x,y-40,"Instances",obj_dice);
-		diceRef.scale = 0.5;
-		diceRef.spinFinal = false;
-		diceRef.playerReference = self;
-		//show_debug_message("DiceRef is now created.");
-		//show_debug_message("DiceValue = "+string(diceRef.diceValue));
+		if(global.isNextDieWeighed) {
+			global.isNextDieWeighed = false;
+			diceRef = instance_create_layer(x,y-40,"Instances", obj_dice,
+			{
+				isWeighed: true,
+				weights: [global.nextDieWeights[0],
+				global.nextDieWeights[1],
+				global.nextDieWeights[2],
+				global.nextDieWeights[3],
+				global.nextDieWeights[4],
+				global.nextDieWeights[5]]
+			});
+			diceRef.scale = 0.9;
+			diceRef.spinFinal = false;
+			diceRef.playerReference = self;
+			
+		}
+		else {
+			diceRef = instance_create_layer(x,y-40,"Instances",obj_dice);
+			diceRef.scale = 0.5;
+			diceRef.spinFinal = false;
+			diceRef.playerReference = self;
+			//show_debug_message("DiceRef is now created.");
+			//show_debug_message("DiceValue = "+string(diceRef.diceValue));
+		}
 	}
 	else {
 		//If the dice is finished rolling, then set the desired # of positions to move

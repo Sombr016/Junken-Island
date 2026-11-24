@@ -14,7 +14,7 @@ else {
 
 //If a player is calling the gate and the gate is active, then trigger UE[0].
 
-if(playerCallingRef != noone and global.gatesActive[gateNumber-1]) {
+if(playerCallingRef != noone and global.gatesActive[gateNumber-1] and gateCall == gateNumber) {
 	event_user(0);
 }
 if (!global.gatesActive[gateNumber-1] && diceRef != noone) {

@@ -31,7 +31,7 @@ displayTurnText = true; // A flag to display which player's turn it is.
 
 global.playerTilePositions = array_create(players,0); //An array of all player positions.
 
-global.numberOfSquares = 15; //The amount of squares that are on the board.
+global.numberOfSquares = 43; //The amount of squares that are on the board.
 
 #endregion
 
@@ -70,6 +70,16 @@ global.playerWeights = array_create(players,[0.34,0.33,0.33]);
 
 #endregion
 
+
+#region Global Item Variables.
+
+global.isNextDieWeighed = false; //A flag to check if the next die is Weighed.
+global.nextDieWeights = [0,0,0,0,0.5,0.5]; //The weights for the next die, if it's Weighed.
+
+global.nextDieFaces = 6; //A global flag to indicate the amount of faces for the next die.
+
+
+#endregion
 //Misc variables that don't fit in any of these regions.
 global.speedMult = 1.5; //A global speed multipler that speeds up the game.
 

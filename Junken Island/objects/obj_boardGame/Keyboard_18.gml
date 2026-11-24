@@ -42,3 +42,11 @@ if(keyboard_check_pressed(ord("K"))) {
 if(keyboard_check_pressed(ord("L"))) {
 	global.gatesActive[2] = !global.gatesActive[2];
 }
+
+if(keyboard_check_pressed(ord("0"))) {
+	//show_debug_message("FUCK YOU!"); I was trying to do + and - for this, but it didn't work and I got angry.
+	global.speedMult = global.speedMult + 0.1;
+}
+if(keyboard_check_pressed(ord("9"))) {
+	global.speedMult = global.speedMult - 0.1;
+}
